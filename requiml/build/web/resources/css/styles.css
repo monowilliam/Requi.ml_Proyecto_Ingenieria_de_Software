@@ -1,0 +1,1984 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ p {
+	font-size:22pt;
+	font-family:'Segoe UI';
+	color:#707070;
+  }
+  
+  
+ 
+ /*------------FORMULARIO---------------------------------*/
+
+/* Estos son los estilos para nuestros campos inválidos */
+input:invalid{
+  border-color: #900;
+  background-color: #FDD;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+/* Estos son los estilos para nuestros mensajes de error */
+.error {
+  width  : 100%;
+  padding: 0;
+ 
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+ 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+
+
+
+ 
+ 
+
+/* Estos son los estilos para nuestros campos inválidos */
+input:invalid{
+  border-color: #900;
+  background-color: #FDD;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+/* Estos son los estilos para nuestros mensajes de error */
+.error {
+  width  : 100%;
+  padding: 0;
+ 
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+ 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1313px;
+	 height: 724px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #reglayer_1
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1313px;
+	 height: 724px;
+	 z-index:1;
+} 
+
+ #reglayer_2
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1313px;
+	 height: 724px;
+	 z-index:2;
+} 
+
+ #fondoreg 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1313px;
+	 height: 724px;
+	 z-index:3;
+} 
+
+.campotexto{
+	width:100%;
+	border: 1px solid #DBE1EB;
+	font-size: 18px;
+	font-family: Arial, Verdana;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-o-border-radius: 4px;
+	background: #FFFFFF;
+	background: linear-gradient(left, #FFFFFF, #F7F9FA);
+	background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+	background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+	background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+	color: #2E3133;
+}
+
+
+ #correoRegis 
+{ 
+	 left: 592px; 
+	 top: 284px; 
+	 position: absolute; 
+	 width: 617px;
+	 height: 57px;
+	 z-index:4;
+} 
+
+ #regnombreRegis 
+{ 
+	 left: 592px; 
+	 top: 213px; 
+	 position: absolute; 
+	 width: 303px;
+	 height: 57px;
+	 z-index:5;
+} 
+
+ #contraseña1Regis 
+{ 
+	 left: 592px; 
+	 top: 426px; 
+	 position: absolute; 
+	 width: 610px;
+	 height: 56px;
+	 z-index:8;
+} 
+
+ #indicativoRegis 
+{ 
+	 left: 592px; 
+	 top: 355px; 
+	 position: absolute; 
+	 width: 187px;
+	 height: 57px;
+	 z-index:11;
+} 
+
+ #telefonoRegis 
+{ 
+	 left: 797px; 
+	 top: 355px; 
+	 position: absolute; 
+	 width: 405px;
+	 height: 57px;
+	 z-index:12;
+} 
+
+ #contraseña2Regis 
+{ 
+	 left: 592px; 
+	 top: 497px; 
+	 position: absolute; 
+	 width: 610px;
+	 height: 56px;
+	 z-index:13;
+} 
+
+ #regRectangle45 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 488px;
+	 height: 723px;
+	 z-index:16;
+} 
+
+ #regREGISTRARSE 
+{ 
+	 left: 356px; 
+	 top: 32px; 
+	 position: absolute; 
+	 width: 91px;
+	 height: 11px;
+	 z-index:17;
+} 
+
+ #regREGSTRATEAHORA 
+{ 
+	 left: 595px; 
+	 top: 93px; 
+	 position: absolute; 
+	 width: 365px;
+	 height: 39px;
+	 z-index:18;
+} 
+
+ #regBIENVENIDOSA 
+{ 
+	 left: 89px; 
+	 top: 153px; 
+	 position: absolute; 
+	 width: 267px;
+	 height: 24px;
+	 z-index:19;
+} 
+
+ #regREQUIML 
+{ 
+	 left: 145px; 
+	 top: 199px; 
+	 position: absolute; 
+	 width: 165px;
+	 height: 27px;
+	 z-index:20;
+} 
+
+ #regLasolucindegestinder 
+{ 
+	 left: 50px; 
+	 top: 305px; 
+	 position: absolute; 
+	 width: 333px;
+	 height: 18px;
+	 z-index:21;
+} 
+
+ #regREQUIMLtegeneraeldoc 
+{ 
+	 left: 50px; 
+	 top: 332px; 
+	 position: absolute; 
+	 width: 333px;
+	 height: 18px;
+	 z-index:22;
+} 
+
+ #regPRUEBALOAHORA 
+{ 
+	 left: 130px; 
+	 top: 359px; 
+	 position: absolute; 
+	 width: 172px;
+	 height: 13px;
+	 z-index:23;
+} 
+
+ #regRectangle18 
+{ 
+	 left: 103px; 
+	 top: 441px; 
+	 position: absolute; 
+	 width: 283px;
+	 height: 57px;
+	 z-index:24;
+} 
+
+ #regCONOCESOBRE 
+{ 
+	 left: 156px; 
+	 top: 467px; 
+	 position: absolute; 
+	 width: 184px;
+	 height: 18px;
+	 z-index:25;
+} 
+
+ #regYatienesunaCuenta 
+{ 
+	 left: 593px; 
+	 top: 665px; 
+	 position: absolute; 
+	 width: 155px;
+	 height: 14px;
+	 z-index:26;
+} 
+
+ #regIniciaSesin 
+{ 
+	 left: 753px; 
+	 top: 664px; 
+	 position: absolute; 
+	 width: 93px;
+	 height: 12px;
+	 z-index:27;
+} 
+
+ #regRectangle217 
+{ 
+	 left: 592px; 
+	 top: 567px; 
+	 position: absolute; 
+	 width: 610px;
+	 height: 56px;
+	 z-index:28;
+} 
+
+ #regREGISTRARSE_0 
+{ 
+	 left: 840px; 
+	 top: 588px; 
+	 position: absolute; 
+	 width: 98px;
+	 height: 11px;
+	 z-index:29;
+} 
+
+ #regapellidoRegis 
+{ 
+	 left: 905px; 
+	 top: 213px; 
+	 position: absolute; 
+	 width: 304px;
+	 height: 56px;
+	 z-index:30;
+} 
+
+ #reglogoRequi
+{ 
+	 left: 1045px; 
+	 top: 21px; 
+	 position: absolute; 
+	 width: 154px;
+	 height: 166px;
+	 z-index:33;
+} 
+
+
+
+
+
+#loglayer_1 
+{ 
+	 left: 1px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1313px;
+	 height: 722px;
+	 z-index:1;
+} 
+
+ #loglayer_2 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1314px;
+	 height: 723px;
+	 z-index:2;
+} 
+
+ #logO6XJPI0 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 792px;
+	 height: 723px;
+	 z-index:3;
+} 
+
+ #logRectangle46 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 792px;
+	 height: 723px;
+	 z-index:4;
+} 
+
+ #logBIENVENIDOSAREQUIML 
+{ 
+	 left: 94px; 
+	 top: 355px; 
+	 position: absolute; 
+	 width: 470px;
+	 height: 28px;
+	 z-index:5;
+} 
+
+ #logRectangle18 
+{ 
+	 left: 90px; 
+	 top: 525px; 
+	 position: absolute; 
+	 width: 284px;
+	 height: 57px;
+	 z-index:6;
+} 
+
+ #logREGISTRATEAHORA 
+{ 
+	 left: 146px; 
+	 top: 547px; 
+	 position: absolute; 
+	 width: 155px;
+	 height: 12px;
+	 z-index:7;
+} 
+
+ #logLasolucindegestinder 
+{ 
+	 left: 93px; 
+	 top: 424px; 
+	 position: absolute; 
+	 width: 559px;
+	 height: 21px;
+	 z-index:8;
+} 
+
+ #logdocumentoSRSPRUEBALO 
+{ 
+	 left: 92px; 
+	 top: 452px; 
+	 position: absolute; 
+	 width: 332px;
+	 height: 16px;
+	 z-index:9;
+} 
+
+ #logRectangle182 
+{ 
+	 left: 428px; 
+	 top: 525px; 
+	 position: absolute; 
+	 width: 284px;
+	 height: 57px;
+	 z-index:10;
+} 
+
+ #logCONOCESOBRE 
+{ 
+	 left: 482px; 
+	 top: 550px; 
+	 position: absolute; 
+	 width: 184px;
+	 height: 18px;
+	 z-index:11;
+} 
+
+ #loglayer_12 
+{ 
+	 left: 396px; 
+	 top: 546px; 
+	 position: absolute; 
+	 width: 11px;
+	 height: 14px;
+	 z-index:12;
+} 
+
+ #logINICIARSESIN 
+{ 
+	 left: 622px; 
+	 top: 36px; 
+	 position: absolute; 
+	 width: 120px;
+	 height: 16px;
+	 z-index:13;
+} 
+
+ #logRectangle21NOMBREDEU 
+{ 
+	 left: 849px; 
+	 top: 282px; 
+	 position: absolute; 
+	 width: 420px;
+	 height: 56px;
+	 z-index:14;
+} 
+
+ #logRectangle212CONTRASE 
+{ 
+	 left: 849px; 
+	 top: 354px; 
+	 position: absolute; 
+	 width: 420px;
+	 height: 56px;
+	 z-index:15;
+} 
+
+ #logRectangle213 
+{ 
+	 left: 850px; 
+	 top: 445px; 
+	 position: absolute; 
+	 width: 418px;
+	 height: 55px;
+	 z-index:16;
+} 
+
+ #logINICIARSESIN_0 
+{ 
+	 left: 990px; 
+	 top: 461px; 
+	 position: absolute; 
+	 width: 131px;
+	 height: 16px;
+	 z-index:17;
+} 
+
+ #logOlvidastetuContrasea 
+{ 
+	 left: 893px; 
+	 top: 676px; 
+	 position: absolute; 
+	 width: 199px;
+	 height: 17px;
+	 z-index:18;
+} 
+
+ #logRecuprala 
+{ 
+	 left: 1098px; 
+	 top: 676px; 
+	 position: absolute; 
+	 width: 93px;
+	 height: 17px;
+	 z-index:19;
+} 
+
+ #loglogoRequi 
+{ 
+	 left: 954px; 
+	 top: 38px; 
+	 position: absolute; 
+	 width: 209px;
+	 height: 224px;
+	 z-index:20;
+} 
+
+
+
+
+
+#reclayer_1 
+{ 
+	 left: 1px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1313px;
+	 height: 722px;
+	 z-index:1;
+} 
+
+ #reclayer_2 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1314px;
+	 height: 723px;
+	 z-index:2;
+} 
+
+ #recO6JTUC0 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 792px;
+	 height: 723px;
+	 z-index:3;
+} 
+
+ #recRectangle47 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 792px;
+	 height: 723px;
+	 z-index:4;
+} 
+
+ #recRECUPERAAREQUIML 
+{ 
+	 left: 94px; 
+	 top: 355px; 
+	 position: absolute; 
+	 width: 433px;
+	 height: 30px;
+	 z-index:5;
+} 
+
+ #recOLVIDCONTRASEA 
+{ 
+	 left: 570px; 
+	 top: 36px; 
+	 position: absolute; 
+	 width: 171px;
+	 height: 16px;
+	 z-index:6;
+} 
+
+ #recLasolucindegestinder 
+{ 
+	 left: 93px; 
+	 top: 424px; 
+	 position: absolute; 
+	 width: 587px;
+	 height: 22px;
+	 z-index:7;
+} 
+
+ #recdocumentoSRSPRUEBALO 
+{ 
+	 left: 92px; 
+	 top: 453px; 
+	 position: absolute; 
+	 width: 348px;
+	 height: 17px;
+	 z-index:8;
+} 
+
+ #recRectangle18 
+{ 
+	 left: 90px; 
+	 top: 525px; 
+	 position: absolute; 
+	 width: 284px;
+	 height: 57px;
+	 z-index:9;
+} 
+
+ #recREGISTRATEAHORA 
+{ 
+	 left: 146px; 
+	 top: 547px; 
+	 position: absolute; 
+	 width: 155px;
+	 height: 12px;
+	 z-index:10;
+} 
+
+ #recRectangle21CORREOELE 
+{ 
+	 left: 849px; 
+	 top: 278px; 
+	 position: absolute; 
+	 width: 420px;
+	 height: 56px;
+	 z-index:11;
+} 
+
+ #recRectangle212TELFONOM 
+{ 
+	 left: 849px; 
+	 top: 364px; 
+	 position: absolute; 
+	 width: 420px;
+	 height: 56px;
+	 z-index:12;
+} 
+
+ #recRectangle213 
+{ 
+	 left: 850px; 
+	 top: 445px; 
+	 position: absolute; 
+	 width: 418px;
+	 height: 55px;
+	 z-index:13;
+} 
+
+ #recRECUPERARCONTRASEA 
+{ 
+	 left: 944px; 
+	 top: 462px; 
+	 position: absolute; 
+	 width: 223px;
+	 height: 15px;
+	 z-index:14;
+} 
+
+ #recRectangle182 
+{ 
+	 left: 428px; 
+	 top: 525px; 
+	 position: absolute; 
+	 width: 284px;
+	 height: 57px;
+	 z-index:15;
+} 
+
+ #recCONOCESOBRE 
+{ 
+	 left: 482px; 
+	 top: 550px; 
+	 position: absolute; 
+	 width: 184px;
+	 height: 18px;
+	 z-index:16;
+} 
+
+ #reclayer_17 
+{ 
+	 left: 396px; 
+	 top: 545px; 
+	 position: absolute; 
+	 width: 12px;
+	 height: 17px;
+	 z-index:17;
+} 
+
+ #reclogoRequi 
+{ 
+	 left: 954px; 
+	 top: 38px; 
+	 position: absolute; 
+	 width: 209px;
+	 height: 224px;
+	 z-index:18;
+} 
+
+ #recYatienesunaCuenta 
+{ 
+	 left: 893px; 
+	 top: 676px; 
+	 position: absolute; 
+	 width: 175px;
+	 height: 17px;
+	 z-index:19;
+} 
+
+ #recIniciarSesin 
+{ 
+	 left: 1074px; 
+	 top: 676px; 
+	 position: absolute; 
+	 width: 113px;
+	 height: 13px;
+	 z-index:20;
+} 
+
+ #reclayer_21 
+{ 
+	 left: 1054px; 
+	 top: 343px; 
+	 position: absolute; 
+	 width: 9px;
+	 height: 13px;
+	 z-index:21;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#background1
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1311px;
+	 height: 749px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #gesBackground8 
+{ 
+	 left: 0px; 
+	 top: 26px; 
+	 position: absolute; 
+	 width: 346px;
+	 height: 723px;
+	 z-index:1;
+} 
+
+ #gesBackground10 
+{ 
+	 left: 0px; 
+	 top: 26px; 
+	 position: absolute; 
+	 width: 346px;
+	 height: 723px;
+	 z-index:2;
+} 
+
+ #gesJuanitaPerez 
+{ 
+	 left: 81px; 
+	 top: 334px; 
+	 position: absolute; 
+	 width: 240px;
+	 height: 23px;
+	 z-index:3;
+} 
+
+ #gesdashboard3avatar 
+{ 
+	 left: 86px; 
+	 top: 137px; 
+	 position: absolute; 
+	 width: 174px;
+	 height: 174px;
+	 z-index:4;
+} 
+
+ #gesjuanitarequiml 
+{ 
+	 left: 73px; 
+	 top: 450px; 
+	 position: absolute; 
+	 width: 240px;
+	 height: 25px;
+	 z-index:5;
+} 
+
+ #geslayer_57302118294 
+{ 
+	 left: 78px; 
+	 top: 510px; 
+	 position: absolute; 
+	 width: 240px;
+	 height: 18px;
+	 z-index:6;
+} 
+
+ #gesIngdeRequisitos 
+{ 
+	 left: 78px; 
+	 top: 390px; 
+	 position: absolute; 
+	 width: 240px;
+	 height: 25px;
+	 z-index:7;
+} 
+
+ #geslayer_8 
+{ 
+	 left: 1143px; 
+	 top: 689px; 
+	 position: absolute; 
+	 width: 149px;
+	 height: 55px;
+	 z-index:8;
+} 
+
+ #gesMENSAJES 
+{ 
+	 left: 1205px; 
+	 top: 712px; 
+	 position: absolute; 
+	 width: 59px;
+	 height: 8px;
+	 z-index:9;
+} 
+
+ #gesIcon 
+{ 
+	 left: 1170px; 
+	 top: 707px; 
+	 position: absolute; 
+	 width: 19px;
+	 height: 19px;
+	 z-index:10;
+} 
+
+ #geslayer_11 
+{ 
+	 left: 0px; 
+	 top: 28px; 
+	 position: absolute; 
+	 width: 1311px;
+	 height: 72px;
+	 z-index:11;
+} 
+
+ #gesiconsearch 
+{ 
+	 left: 88px; 
+	 top: 45px; 
+	 position: absolute; 
+	 width: 38px;
+	 height: 38px;
+	 z-index:12;
+} 
+
+ #gesBUSCARUNPROYECTOODEN 
+{ 
+	 left: 146px; 
+	 top: 43px; 
+	 position: absolute; 
+	 width: 411px;
+	 height: 12px;
+	 z-index:13;
+} 
+
+ #gesAvatar 
+{ 
+	 left: 1240px; 
+	 top: 29px; 
+	 position: absolute; 
+	 width: 71px;
+	 height: 71px;
+	 z-index:14;
+} 
+
+ #gessmalldown 
+{ 
+	 left: 1200px; 
+	 top: 59px; 
+	 position: absolute; 
+	 width: 21px;
+	 height: 14px;
+	 z-index:15;
+} 
+
+ #gesMIPERFIL 
+{ 
+	 left: 1021px; 
+	 top: 55px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 12px;
+	 z-index:16;
+} 
+
+ #gesDivider 
+{ 
+	 left: 1116px; 
+	 top: 48px; 
+	 position: absolute; 
+	 width: 2px;
+	 height: 29px;
+	 z-index:17;
+} 
+
+ #gesNotificationIcon 
+{ 
+	 left: 943px; 
+	 top: 50px; 
+	 position: absolute; 
+	 width: 36px;
+	 height: 36px;
+	 z-index:18;
+} 
+
+ #gesNotificationBadge 
+{ 
+	 left: 964px; 
+	 top: 36px; 
+	 position: absolute; 
+	 width: 25px;
+	 height: 25px;
+	 z-index:19;
+} 
+
+ #gesGroup2707 
+{ 
+	 left: 27px; 
+	 top: 49px; 
+	 position: absolute; 
+	 width: 33px;
+	 height: 30px;
+	 z-index:20;
+} 
+
+ #geslogoRequi 
+{ 
+	 left: 609px; 
+	 top: 6px; 
+	 position: absolute; 
+	 width: 104px;
+	 height: 112px;
+	 z-index:21;
+} 
+
+ #geslayer_22 
+{ 
+	 left: 386px; 
+	 top: 569px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 108px;
+	 z-index:22;
+} 
+
+ #gesIntersection9 
+{ 
+	 left: 577px; 
+	 top: 596px; 
+	 position: absolute; 
+	 width: 52px;
+	 height: 52px;
+	 z-index:23;
+} 
+
+ #gesPeluqueraGusano 
+{ 
+	 left: 409px; 
+	 top: 628px; 
+	 position: absolute; 
+	 width: 138px;
+	 height: 16px;
+	 z-index:24;
+} 
+
+ #gesPROYECTO4 
+{ 
+	 left: 409px; 
+	 top: 603px; 
+	 position: absolute; 
+	 width: 77px;
+	 height: 9px;
+	 z-index:25;
+} 
+
+ #geslayer_26 
+{ 
+	 left: 1006px; 
+	 top: 569px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 108px;
+	 z-index:26;
+} 
+
+ #gesGroup2664 
+{ 
+	 left: 1197px; 
+	 top: 596px; 
+	 position: absolute; 
+	 width: 51px;
+	 height: 53px;
+	 z-index:27;
+} 
+
+ #gesFunerariamefu 
+{ 
+	 left: 1029px; 
+	 top: 628px; 
+	 position: absolute; 
+	 width: 120px;
+	 height: 13px;
+	 z-index:28;
+} 
+
+ #gesPROYECTO6 
+{ 
+	 left: 1029px; 
+	 top: 603px; 
+	 position: absolute; 
+	 width: 77px;
+	 height: 9px;
+	 z-index:29;
+} 
+
+ #geslayer_30 
+{ 
+	 left: 696px; 
+	 top: 569px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 108px;
+	 z-index:30;
+} 
+
+ #gesFundacinPiesDescalzo 
+{ 
+	 left: 719px; 
+	 top: 630px; 
+	 position: absolute; 
+	 width: 168px;
+	 height: 11px;
+	 z-index:31;
+} 
+
+ #gesPROYECTO5 
+{ 
+	 left: 719px; 
+	 top: 604px; 
+	 position: absolute; 
+	 width: 77px;
+	 height: 9px;
+	 z-index:32;
+} 
+
+ #gesSymbol21 
+{ 
+	 left: 891px; 
+	 top: 590px; 
+	 position: absolute; 
+	 width: 53px;
+	 height: 65px;
+	 z-index:33;
+} 
+
+ #geslayer_34 
+{ 
+	 left: 636px; 
+	 top: 207px; 
+	 position: absolute; 
+	 width: 410px;
+	 height: 108px;
+	 z-index:34;
+} 
+
+ #gesCrearNuevoProyecto 
+{ 
+	 left: 659px; 
+	 top: 250px; 
+	 position: absolute; 
+	 width: 268px;
+	 height: 26px;
+	 z-index:35;
+} 
+
+ #gesGroup2699 
+{ 
+	 left: 958px; 
+	 top: 227px; 
+	 position: absolute; 
+	 width: 58px;
+	 height: 66px;
+	 z-index:36;
+} 
+
+ #geslayer_37 
+{ 
+	 left: 386px; 
+	 top: 430px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 108px;
+	 z-index:37;
+} 
+
+ #gesGroup2655 
+{ 
+	 left: 579px; 
+	 top: 460px; 
+	 position: absolute; 
+	 width: 46px;
+	 height: 47px;
+	 z-index:38;
+} 
+
+ #gesFarmaciaLa14 
+{ 
+	 left: 409px; 
+	 top: 490px; 
+	 position: absolute; 
+	 width: 113px;
+	 height: 13px;
+	 z-index:39;
+} 
+
+ #gesPROYECTO1ADMIN 
+{ 
+	 left: 409px; 
+	 top: 462px; 
+	 position: absolute; 
+	 width: 131px;
+	 height: 14px;
+	 z-index:40;
+} 
+
+ #geslayer_41 
+{ 
+	 left: 696px; 
+	 top: 430px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 108px;
+	 z-index:41;
+} 
+
+ #gesIntersection7 
+{ 
+	 left: 890px; 
+	 top: 458px; 
+	 position: absolute; 
+	 width: 49px;
+	 height: 51px;
+	 z-index:42;
+} 
+
+ #gesLaboratoriolosAndes 
+{ 
+	 left: 719px; 
+	 top: 490px; 
+	 position: absolute; 
+	 width: 161px;
+	 height: 13px;
+	 z-index:43;
+} 
+
+ #gesPROYECTO2 
+{ 
+	 left: 719px; 
+	 top: 464px; 
+	 position: absolute; 
+	 width: 77px;
+	 height: 9px;
+	 z-index:44;
+} 
+
+ #geslayer_45 
+{ 
+	 left: 1006px; 
+	 top: 430px; 
+	 position: absolute; 
+	 width: 270px;
+	 height: 108px;
+	 z-index:45;
+} 
+
+ #gesIntersection6 
+{ 
+	 left: 1197px; 
+	 top: 459px; 
+	 position: absolute; 
+	 width: 50px;
+	 height: 50px;
+	 z-index:46;
+} 
+
+ #gesBancoNequiml 
+{ 
+	 left: 1029px; 
+	 top: 490px; 
+	 position: absolute; 
+	 width: 116px;
+	 height: 16px;
+	 z-index:47;
+} 
+
+ #gesPROYECTO3 
+{ 
+	 left: 1029px; 
+	 top: 464px; 
+	 position: absolute; 
+	 width: 77px;
+	 height: 9px;
+	 z-index:48;
+} 
+
+ #gesGESTINDEPROYECTOS 
+{ 
+	 left: 702px; 
+	 top: 144px; 
+	 position: absolute; 
+	 width: 271px;
+	 height: 23px;
+	 z-index:49;
+} 
+
+ #gesMISPROYECTOS 
+{ 
+	 left: 741px; 
+	 top: 383px; 
+	 position: absolute; 
+	 width: 177px;
+	 height: 18px;
+	 z-index:50;
+} 
+
+ #gesSeparator 
+{ 
+	 left: 13px; 
+	 top: 353px; 
+	 position: absolute; 
+	 width: 323px;
+	 height: 5px;
+	 z-index:51;
+} 
+
+ #gesSeparator2 
+{ 
+	 left: 13px; 
+	 top: 411px; 
+	 position: absolute; 
+	 width: 323px;
+	 height: 6px;
+	 z-index:52;
+} 
+
+ #gesSeparator3 
+{ 
+	 left: 13px; 
+	 top: 470px; 
+	 position: absolute; 
+	 width: 323px;
+	 height: 5px;
+	 z-index:53;
+} 
+
+ #gesSeparator4 
+{ 
+	 left: 13px; 
+	 top: 528px; 
+	 position: absolute; 
+	 width: 323px;
+	 height: 5px;
+	 z-index:54;
+} 
+
+ #gesGroup2807 
+{ 
+	 left: 32px; 
+	 top: 431px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 24px;
+	 z-index:55;
+} 
+
+ #gesGroup2701 
+{ 
+	 left: 33px; 
+	 top: 371px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 24px;
+	 z-index:56;
+} 
+
+ #gesEmailIcons 
+{ 
+	 left: 30px; 
+	 top: 493px; 
+	 position: absolute; 
+	 width: 24px;
+	 height: 18px;
+	 z-index:57;
+} 
+
+ #geslayer_58 
+{ 
+	 left: 32px; 
+	 top: 541px; 
+	 position: absolute; 
+	 width: 20px;
+	 height: 34px;
+	 z-index:58;
+} 
+
+ #gesSeparator5 
+{ 
+	 left: 386px; 
+	 top: 349px; 
+	 position: absolute; 
+	 width: 890px;
+	 height: 5px;
+	 z-index:59;
+} 
+
+ #gesSeparator6 
+{ 
+	 left: 13px; 
+	 top: 586px; 
+	 position: absolute; 
+	 width: 323px;
+	 height: 6px;
+	 z-index:60;
+} 
+
+ #gesRectangle21 
+{ 
+	 left: 54px; 
+	 top: 604px; 
+	 position: absolute; 
+	 width: 241px;
+	 height: 55px;
+	 z-index:61;
+} 
+
+ #gesMODIFICARDATOS 
+{ 
+	 left: 103px; 
+	 top: 626px; 
+	 position: absolute; 
+	 width: 159px;
+	 height: 12px;
+	 z-index:62;
+} 
+
+ #gesPath1884 
+{ 
+	 left: 67px; 
+	 top: 621px; 
+	 position: absolute; 
+	 width: 22px;
+	 height: 22px;
+	 z-index:63;
+} 
+
+ #gesRectangle212 
+{ 
+	 left: 78px; 
+	 top: 671px; 
+	 position: absolute; 
+	 width: 193px;
+	 height: 56px;
+	 z-index:64;
+} 
+
+ #gesCERRARSESIN 
+{ 
+	 left: 106px; 
+	 top: 689px; 
+	 position: absolute; 
+	 width: 134px;
+	 height: 16px;
+	 z-index:65;
+} 
+
+
+
+  
+  
+ #prolayer_1 
+{ 
+	 left: 0px; 
+	 top: 25px; 
+	 position: absolute; 
+	 width: 1285px;
+	 height: 708px;
+	 z-index:1;
+} 
+
+ #prolayer_2 
+{ 
+	 left: 1px; 
+	 top: 27px; 
+	 position: absolute; 
+	 width: 1282px;
+	 height: 71px;
+	 z-index:2;
+} 
+
+ #proiconsearch 
+{ 
+	 left: 87px; 
+	 top: 44px; 
+	 position: absolute; 
+	 width: 37px;
+	 height: 37px;
+	 z-index:3;
+} 
+
+ #proBUSCARUNPROYECTOODEN 
+{ 
+	 left: 144px; 
+	 top: 40px; 
+	 position: absolute; 
+	 width: 411px;
+	 height: 12px;
+	 z-index:4;
+} 
+
+ #proAvatar 
+{ 
+	 left: 1213px; 
+	 top: 29px; 
+	 position: absolute; 
+	 width: 70px;
+	 height: 69px;
+	 z-index:5;
+} 
+
+ #prosmalldown 
+{ 
+	 left: 1174px; 
+	 top: 57px; 
+	 position: absolute; 
+	 width: 21px;
+	 height: 14px;
+	 z-index:6;
+} 
+
+ #proMIPERFIL 
+{ 
+	 left: 999px; 
+	 top: 54px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 12px;
+	 z-index:7;
+} 
+
+ #proDivider 
+{ 
+	 left: 1092px; 
+	 top: 46px; 
+	 position: absolute; 
+	 width: 2px;
+	 height: 29px;
+	 z-index:8;
+} 
+
+ #proNotificationIcon 
+{ 
+	 left: 923px; 
+	 top: 49px; 
+	 position: absolute; 
+	 width: 35px;
+	 height: 35px;
+	 z-index:9;
+} 
+
+ #proNotificationBadge 
+{ 
+	 left: 943px; 
+	 top: 35px; 
+	 position: absolute; 
+	 width: 25px;
+	 height: 24px;
+	 z-index:10;
+} 
+
+ #proGroup2707 
+{ 
+	 left: 28px; 
+	 top: 48px; 
+	 position: absolute; 
+	 width: 32px;
+	 height: 29px;
+	 z-index:11;
+} 
+
+ #prologoRequi 
+{ 
+	 left: 597px; 
+	 top: 6px; 
+	 position: absolute; 
+	 width: 101px;
+	 height: 109px;
+	 z-index:12;
+} 
+
+ #prolayer_13 
+{ 
+	 left: 132px; 
+	 top: 566px; 
+	 position: absolute; 
+	 width: 264px;
+	 height: 106px;
+	 z-index:13;
+} 
+
+ #proDIAGRAMAS 
+{ 
+	 left: 155px; 
+	 top: 626px; 
+	 position: absolute; 
+	 width: 92px;
+	 height: 12px;
+	 z-index:14;
+} 
+
+ #proAGREGARDIAGRAMAS 
+{ 
+	 left: 154px; 
+	 top: 600px; 
+	 position: absolute; 
+	 width: 138px;
+	 height: 9px;
+	 z-index:15;
+} 
+
+ #proStatisticsIcon 
+{ 
+	 left: 322px; 
+	 top: 595px; 
+	 position: absolute; 
+	 width: 57px;
+	 height: 48px;
+	 z-index:16;
+} 
+
+ #prolayer_17 
+{ 
+	 left: 738px; 
+	 top: 566px; 
+	 position: absolute; 
+	 width: 264px;
+	 height: 106px;
+	 z-index:17;
+} 
+
+ #proGENERARDOCUMENTO 
+{ 
+	 left: 760px; 
+	 top: 626px; 
+	 position: absolute; 
+	 width: 175px;
+	 height: 12px;
+	 z-index:18;
+} 
+
+ #proDOCUMENTOSRS 
+{ 
+	 left: 761px; 
+	 top: 600px; 
+	 position: absolute; 
+	 width: 107px;
+	 height: 9px;
+	 z-index:19;
+} 
+
+ #proPrinterIcon 
+{ 
+	 left: 942px; 
+	 top: 596px; 
+	 position: absolute; 
+	 width: 45px;
+	 height: 42px;
+	 z-index:20;
+} 
+
+ #prolayer_21 
+{ 
+	 left: 435px; 
+	 top: 566px; 
+	 position: absolute; 
+	 width: 264px;
+	 height: 106px;
+	 z-index:21;
+} 
+
+ #proPORTAFOLIO 
+{ 
+	 left: 458px; 
+	 top: 625px; 
+	 position: absolute; 
+	 width: 101px;
+	 height: 12px;
+	 z-index:22;
+} 
+
+ #proPORTAFOLIODELPROYECT 
+{ 
+	 left: 458px; 
+	 top: 601px; 
+	 position: absolute; 
+	 width: 174px;
+	 height: 9px;
+	 z-index:23;
+} 
+
+ #proGroup2808 
+{ 
+	 left: 640px; 
+	 top: 595px; 
+	 position: absolute; 
+	 width: 42px;
+	 height: 49px;
+	 z-index:24;
+} 
+
+ #prolayer_25 
+{ 
+	 left: 132px; 
+	 top: 431px; 
+	 position: absolute; 
+	 width: 264px;
+	 height: 106px;
+	 z-index:25;
+} 
+
+ #proINTEGRANTES 
+{ 
+	 left: 155px; 
+	 top: 490px; 
+	 position: absolute; 
+	 width: 105px;
+	 height: 12px;
+	 z-index:26;
+} 
+
+ #proINTEGRANTESDETRABAJO 
+{ 
+	 left: 155px; 
+	 top: 464px; 
+	 position: absolute; 
+	 width: 167px;
+	 height: 9px;
+	 z-index:27;
+} 
+
+ #prolayer_6 
+{ 
+	 left: 342px; 
+	 top: 461px; 
+	 position: absolute; 
+	 width: 36px;
+	 height: 47px;
+	 z-index:28;
+} 
+
+ #prolayer_29 
+{ 
+	 left: 435px; 
+	 top: 431px; 
+	 position: absolute; 
+	 width: 264px;
+	 height: 106px;
+	 z-index:29;
+} 
+
+ #proEDITORDEREQUISITOS 
+{ 
+	 left: 458px; 
+	 top: 464px; 
+	 position: absolute; 
+	 width: 142px;
+	 height: 10px;
+	 z-index:30;
+} 
+
+ #proREQUISITOS 
+{ 
+	 left: 458px; 
+	 top: 489px; 
+	 position: absolute; 
+	 width: 91px;
+	 height: 13px;
+	 z-index:31;
+} 
+
+ #proGroup2699 
+{ 
+	 left: 638px; 
+	 top: 459px; 
+	 position: absolute; 
+	 width: 43px;
+	 height: 48px;
+	 z-index:32;
+} 
+
+ #prolayer_33 
+{ 
+	 left: 738px; 
+	 top: 431px; 
+	 position: absolute; 
+	 width: 264px;
+	 height: 106px;
+	 z-index:33;
+} 
+
+ #proEDITORDELSRS 
+{ 
+	 left: 761px; 
+	 top: 490px; 
+	 position: absolute; 
+	 width: 122px;
+	 height: 12px;
+	 z-index:34;
+} 
+
+ #proEDITORDELDOCUMENTO 
+{ 
+	 left: 761px; 
+	 top: 464px; 
+	 position: absolute; 
+	 width: 155px;
+	 height: 9px;
+	 z-index:35;
+} 
+
+ #proedit 
+{ 
+	 left: 931px; 
+	 top: 458px; 
+	 position: absolute; 
+	 width: 52px;
+	 height: 52px;
+	 z-index:36;
+} 
+
+ #proCREARNUEVOPROYECTO 
+{ 
+	 left: 506px; 
+	 top: 113px; 
+	 position: absolute; 
+	 width: 380px;
+	 height: 18px;
+	 z-index:37;
+} 
+
+ #prolayer_38 
+{ 
+	 left: 165px; 
+	 top: 210px; 
+	 position: absolute; 
+	 width: 107px;
+	 height: 32px;
+	 z-index:38;
+} 
+
+ #proID 
+{ 
+	 left: 134px; 
+	 top: 218px; 
+	 position: absolute; 
+	 width: 17px;
+	 height: 15px;
+	 z-index:39;
+} 
+
+ #prolayer_35674 
+{ 
+	 left: 185px; 
+	 top: 218px; 
+	 position: absolute; 
+	 width: 57px;
+	 height: 15px;
+	 z-index:40;
+} 
+
+ #prolayer_41 
+{ 
+	 left: 402px; 
+	 top: 210px; 
+	 position: absolute; 
+	 width: 597px;
+	 height: 32px;
+	 z-index:41;
+} 
+
+ #proNOMBRE 
+{ 
+	 left: 305px; 
+	 top: 218px; 
+	 position: absolute; 
+	 width: 82px;
+	 height: 15px;
+	 z-index:42;
+} 
+
+ #proEscribeunnombreparae 
+{ 
+	 left: 422px; 
+	 top: 217px; 
+	 position: absolute; 
+	 width: 323px;
+	 height: 20px;
+	 z-index:43;
+} 
+
+ #proDESCRIPCINDELPROYECT 
+{ 
+	 left: 133px; 
+	 top: 265px; 
+	 position: absolute; 
+	 width: 278px;
+	 height: 20px;
+	 z-index:44;
+} 
+
+ #prolayer_45 
+{ 
+	 left: 132px; 
+	 top: 296px; 
+	 position: absolute; 
+	 width: 867px;
+	 height: 101px;
+	 z-index:45;
+} 
+
+ #proEscribeunadescripcin 
+{ 
+	 left: 152px; 
+	 top: 302px; 
+	 position: absolute; 
+	 width: 336px;
+	 height: 20px;
+	 z-index:46;
+} 
+
+ #proRectangle21 
+{ 
+	 left: 1035px; 
+	 top: 263px; 
+	 position: absolute; 
+	 width: 210px;
+	 height: 54px;
+	 z-index:47;
+} 
+
+ #proCERRARPROYECTO 
+{ 
+	 left: 1061px; 
+	 top: 285px; 
+	 position: absolute; 
+	 width: 162px;
+	 height: 12px;
+	 z-index:48;
+} 
+
+ #proRectangle212 
+{ 
+	 left: 1035px; 
+	 top: 333px; 
+	 position: absolute; 
+	 width: 210px;
+	 height: 54px;
+	 z-index:49;
+} 
+
+ #proCERRARSESIN 
+{ 
+	 left: 1075px; 
+	 top: 351px; 
+	 position: absolute; 
+	 width: 134px;
+	 height: 16px;
+	 z-index:50;
+} 
+
+ #proRectangle213 
+{ 
+	 left: 1035px; 
+	 top: 194px; 
+	 position: absolute; 
+	 width: 210px;
+	 height: 54px;
+	 z-index:51;
+} 
+
+ #proGUARDARPROYECTO 
+{ 
+	 left: 1053px; 
+	 top: 215px; 
+	 position: absolute; 
+	 width: 179px;
+	 height: 12px;
+	 z-index:52;
+} 

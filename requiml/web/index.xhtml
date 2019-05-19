@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Iniciar Sesión Requi.ml</title>
+        <h:outputStylesheet library="css" name="styles.css" />
+    </h:head>
+    <h:body>
+        <h:form>
+            <!--
+            <h:inputText id="txtCorreo" value="{loginCtl.correo}" required="true" a:placeholder = "ingrese el Correo"/>
+            <p:message for="txtCorreo" display="icon" />
+            <h:inputText id="txtCont" value="{loginCtl.contraseña}" required="true" a:placeholder = "ingrese la Contraseña"/>
+            <p:message for="txtCont" />
+            <h:commandButton value="iniciar sesión" action="{loginCtl.iniciarSesion()}"/>
+            -->
+            <p:messages autoUpdate="true"/>
+            <div id="background">
+                <div id="loglayer_1"><img src="resources/images/loglayer_1.png"/></div>
+                <div id="loglayer_2"><img src="resources/images/loglayer_2.png"/></div>
+                <div id="logO6XJPI0"><img src="resources/images/logO6XJPI0.png"/></div>
+                <div id="logRectangle46"><img src="resources/images/logRectangle46.png"/></div>
+                <div id="logBIENVENIDOSAREQUIML"><img src="resources/images/logBIENVENIDOSAREQUIML.png"/></div>
+                <div id="logLasolucindegestinder"><img src="resources/images/logLasolucindegestinder.png"/></div>
+                <div id="logdocumentoSRSPRUEBALO"><img src="resources/images/logdocumentoSRSPRUEBALO.png"/></div>
+                <div id="logRectangle182"><img src="resources/images/logRectangle182.png"/></div>
+                <div id="logCONOCESOBRE"><img src="resources/images/logCONOCESOBRE.png"/></div>
+                <div id="loglayer_12"><img src="resources/images/loglayer_12.png"/></div>
+                <div id="logINICIARSESIN"><img src="resources/images/logINICIARSESIN.png"/></div>
+                <div id="logOlvidastetuContrasea"><img src="resources/images/logOlvidastetuContrasea.png"/></div>
+                <div id="loglogoRequi"><img src="resources/images/loglogoRequi.png"/></div>
+                <div id="logRecuprala">
+                    <h:link outcome="recuperar">
+                        <img src="resources/images/logRecuprala.png"/>
+                    </h:link>
+                </div>
+                <div id="logRectangle21NOMBREDEU">
+                    <h:inputText id="txtCorreo" value="#{loginCtl.correo}" required="true" class="campotexto" a:placeholder="CORREO ELECTRÓNICO" a:type="email"/>
+                    <span class="error"></span>
+                    <p:message for="txtCorreo" display="icon" />
+                </div>
+                <div id="logRectangle212CONTRASE">
+                    <h:inputSecret id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="CONTRASEÑA"/>
+                    <span class="error"></span>
+                    <p:message for="txtCorreo" display="icon" />
+                </div>
+                <div id="logRectangle213">
+                    <h:commandButton image="resources/images/logRectangle213.png" action="#{loginCtl.iniciarSesion()}"/>
+                </div>
+                <div id="logINICIARSESIN_0">
+                    <h:commandButton image="resources/images/logINICIARSESIN_0.png" action="#{loginCtl.iniciarSesion()}"/>
+                </div>
+                <div id="logRectangle18">
+                <h:link outcome="registrar">
+                    <img src="resources/images/logRectangle18.png"/>
+                </h:link>
+            </div>
+            <div id="logREGISTRATEAHORA">
+                <h:link outcome="registrar">
+                    <img src="resources/images/logREGISTRATEAHORA.png"/>
+                </h:link>    
+            </div>
+            </div>
+            <h:outputLabel value="#{loginCtl.str_out}"/>
+        </h:form>
+    </h:body>
+</html>
+

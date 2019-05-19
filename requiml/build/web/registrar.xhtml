@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>¡Regístrate Ahora!</title>
+        <h:outputStylesheet library="css" name="styles.css" />
+    </h:head>
+    <h:body>
+        <h:form>
+        <p:messages autoUpdate="true"/>
+        <div id="background">
+            <div id="reglayer_1"><img src="resources/images/reglayer_1.png"/></div>
+            <div id="reglayer_2"><img src="resources/images/reglayer_2.png"/></div>
+            <div id="fondoreg"><img src="resources/images/fondoreg.png"/></div>
+            <div id="reglogoRequi"><img src="resources/images/reglogoRequi.png"/></div>
+            <div id="regRectangle45"><img src="resources/images/regRectangle45.png"/></div>
+            <div id="regREGISTRARSE"><img src="resources/images/regREGISTRARSE.png"/></div>
+            <div id="regREGSTRATEAHORA"><img src="resources/images/regREGSTRATEAHORA.png"/></div>
+            <div id="regBIENVENIDOSA"><img src="resources/images/regBIENVENIDOSA.png"/></div>
+            <div id="regREQUIML"><img src="resources/images/regREQUIML.png"/></div>
+            <div id="regLasolucindegestinder"><img src="resources/images/regLasolucindegestinder.png"/></div>
+            <div id="regREQUIMLtegeneraeldoc"><img src="resources/images/regREQUIMLtegeneraeldoc.png"/></div>
+            <div id="regYatienesunaCuenta"><img src="resources/images/regYatienesunaCuenta.png"/></div>
+            <div id="regPRUEBALOAHORA"><img src="resources/images/regPRUEBALOAHORA.png"/></div>
+            <div id="regnombreRegis">
+                <h:inputText value="#{registrarCtl.nombre}" class="campotexto" a:placeholder="NOMBRE"/>
+                <span class="error"></span>
+            </div>
+            <div id="regapellidoRegis">
+                <h:inputText value="#{registrarCtl.apellido}" class="campotexto" a:placeholder="APELLIDO"/>
+            </div>
+            <div id="correoRegis">
+                <h:inputText value="#{registrarCtl.correo}" class="campotexto" a:placeholder="CORREO ELECTRÓNICO" a:type="email"/>
+                <span class="error"></span>
+            </div>
+            <div id="indicativoRegis">
+                <h:inputText value="#{registrarCtl.indicativo}" class="campotexto" a:value="+57"/>
+            </div>
+            <div id="telefonoRegis">
+                <h:inputText value="#{registrarCtl.celular}" class="campotexto" a:placeholder="TELÉFONO CELULAR" a:type="tel"/>
+                <span class="error"></span>
+            </div>
+            <div id="contraseña1Regis">
+                <h:inputSecret value="#{registrarCtl.contraseña}" class="campotexto" a:placeholder="CONTRASEÑA"/>
+                <span class="error"></span>
+            </div>
+            <div id="contraseña2Regis">
+                <h:inputSecret value="#{registrarCtl.contraseña2}" class="campotexto" a:placeholder="CONFIRMAR CONTRASEÑA"/>
+                <span class="error"></span>
+            </div>
+            <div id="regRectangle18">
+                <h:link outcome="index">
+                    <img src="resources/images/regRectangle18.png"/>
+                </h:link>
+            </div>
+            <div id="regCONOCESOBRE">
+                <h:link outcome="index">
+                    <img src="resources/images/regCONOCESOBRE.png"/>
+                </h:link>
+            </div>
+            <div id="regIniciaSesin">
+                <h:link outcome="index">
+                    <img src="resources/images/regIniciaSesin.png"/>
+                </h:link>
+            </div>
+            <div id="regRectangle217">
+                <h:commandButton image="resources/images/regRectangle217.png" action="#{registrarCtl.registroUsuario()}"/>
+            </div>
+            <div id="regREGISTRARSE_0">
+                <h:commandButton image="resources/images/regREGISTRARSE_0.png" action="#{registrarCtl.registroUsuario()}"/>
+            </div>
+        </div> 
+        </h:form>
+    </h:body>
+</html>
