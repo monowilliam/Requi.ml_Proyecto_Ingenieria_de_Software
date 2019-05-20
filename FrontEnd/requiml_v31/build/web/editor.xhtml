@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Editor del SRS</title>
+        <h:outputStylesheet library="css" name="styles.css" />
+    </h:head>
+    <h:body>
+        <div id="srsbackground">    
+            <div id="srslayer_1"><img src="resources/images/srslayer_1.png"/></div>
+            <div id="srslayer_2"><img src="resources/images/srslayer_2.png"/></div>
+            <div id="srslayer_3"><img src="resources/images/srslayer_3.png"/></div>
+            <div id="srsiconsearch"><img src="resources/images/srsiconsearch.png"/></div>
+            <div id="srsBUSCARUNPROYECTOODEN"><img src="resources/images/srsBUSCARUNPROYECTOODEN.png"/></div>
+            <div id="srsAvatar"><img src="resources/images/srsAvatar.png"/></div>
+            <div id="srssmalldown"><img src="resources/images/srssmalldown.png"/></div>
+            <div id="srsMIPERFIL"><img src="resources/images/srsMIPERFIL.png"/></div>
+            <div id="srsDivider"><img src="resources/images/srsDivider.png"/></div>
+            <div id="srsNotificationIcon"><img src="resources/images/srsNotificationIcon.png"/></div>
+            <div id="srsNotificationBadge"><img src="resources/images/srsNotificationBadge.png"/></div>
+            <div id="srsmenu"><img src="resources/images/srsmenu.png"/></div>
+            <div id="srslogoRequi"><img src="resources/images/srslogoRequi.png"/></div>
+            <div id="srsEDITORDEDOCUMENTOSRS"><img src="resources/images/srsEDITORDEDOCUMENTOSRS.png"/></div>
+            <div id="srsINTRODUCCIN"><img src="resources/images/srsINTRODUCCIN.png"/></div>
+            
+            
+            <!--BOTON DE CERRAR EDITOR-->
+            <div id="srsRectangle21">
+                <h:commandButton image="resources/images/srsRectangle21.png" action="#{loginCtl.iniciarSesion()}"/>
+            </div>
+            <div id="srsCERRAREDITOR">
+                <h:commandButton image="resources/images/srsCERRAREDITOR.png" action="#{loginCtl.iniciarSesion()}"/>
+            </div>
+            
+            
+            <!--BOTON CERRAR SESIÓN-->
+            <div id="srsRectangle212">
+                <h:commandButton image="resources/images/srsRectangle212.png" action="#{loginCtl.iniciarSesion()}"/>
+            </div>
+            <div id="srsCERRARSESIN">
+                <h:commandButton image="resources/images/srsCERRARSESIN.png" action="#{loginCtl.iniciarSesion()}"/>
+            </div>
+            
+            
+            <!--BOTON GUARDAR-->
+            <div id="srsRectangle213">
+                <h:commandButton image="resources/images/srsRectangle213.png" action="#{loginCtl.iniciarSesion()}"/>
+            </div>
+            <div id="srsGUARDARCAMBIOS">
+                <h:commandButton image="resources/images/srsGUARDARCAMBIOS.png" action="#{loginCtl.iniciarSesion()}"/>
+            </div>
+            
+            
+            
+            <div id="srsDESCRIPCINGLOBAL"><img src="resources/images/srsDESCRIPCINGLOBAL.png"/></div>
+            
+            <!--CAMPO TEXTO PROPOSITO-->
+            <div id="srslayer_22">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Propósito" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO ALCANCE-->
+            <div id="srslayer_24">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Alcance" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO DEFINICIONES-->
+            <div id="srslayer_27">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Definiciones, siglas y abreviaturas" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO REFERENCIAS-->
+            <div id="srslayer_29">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Referencias" a:type="textarea"/>
+            </div>
+
+            <!--CAMPO TEXTO APRECIACIONES GLOBALES-->
+            <div id="srslayer_31">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Apreciación global" a:type="textarea"/>
+            </div>            
+            
+            <!--CAMPO TEXTO PERSPECTIVA DEL PRODUCTO-->
+            <div id="srslayer_34">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Perspectiva del producto" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO INTERFACES CON EL USUARIO-->
+            <div id="srslayer_36">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Interfaces con el usuario" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO INTERFACES CON EL HARDWARE-->
+            <div id="srslayer_38">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Interfaces con el hardware" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO INTERFACES CON EL SOFTWARE-->
+            <div id="srslayer_40">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Interfaces con el software" a:type="textarea"/>
+            </div>
+            
+            <div id="srslayer_42">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Interfaces de comunicaciones" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO RESTRICCIONES DE MEMORIA-->
+            <div id="srslayer_44">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Restricciones de memoria" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO FUNCIONAMIENTOS-->
+            <div id="srslayer_46">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Funcionamientos" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO CARACTTERISTICAS DEL USUARIO-->
+            <div id="srslayer_48">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Características del usuario" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO FUNCIONES DEL PRODUCTO-->            
+            <div id="srslayer_50">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Funciones del Producto" a:type="textarea"/>
+            </div>
+           
+            <!--CAMPO TEXTO MODELO DEL DOMINIO-->
+            <div id="srslayer_52">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Modelo del dominio" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO RESTRICCION-->
+            <div id="srslayer_54">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Restricciones" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO SUOISICIONES Y DEPENDENCIAS-->
+            <div id="srslayer_56">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Suposiciones y dependencias" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO DISTRIBUCIÓN DE LOS REQUERIMIENTOS-->
+            <div id="srslayer_58">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Distribución de los Requerimientos" a:type="textarea"/>
+            </div>
+            
+            <!--CAMPO TEXTO INTERFAZ DEL CLIENTE-->
+            <div id="srslayer_60">
+                <h:inputTextarea id="txtContraseña" value="#{loginCtl.contraseña}" required="true" class="campotexto" a:placeholder="Interfaz del sistema" a:type="textarea"/>
+            </div>
+            
+            
+            
+            
+            
+        </div>
+        
+    </h:body>
+</html>
+
